@@ -1,0 +1,39 @@
+保存位置：
+	redis_65001
+
+总后台
+	admin:login:token
+	账号密码登陆-记录token
+
+H5推广后台
+	h5:login:token
+	客户端请求
+	-->接口系统authorizedlogin
+		参数：player_id  time  sign
+		-->后台api login/authorized_longin
+			注册token并返回token
+			-->客户端跳转H5首页
+				参数：token
+
+
+注意：
+	默认情况下，redis不会自动清除过期的key
+	应该设置key的过期时间，然后定时去访问，这样redis就会被动删除过期的key
+	或者记录key的时间，定时清理
+
+	定时清理token，可保留一天前的token
+
+	expire key seconds
+	ttl key 
+
+
+短信验证码过期时间使用的是key的有效时间
+
+
+总后台
+29f974bfa1a6d69624fdd9f0fe7f15fa
+
+渠道（大川特代）
+80131b86cbbdc9eee671c37300217e81
+
+http://192.168.1.210/jinshihoutai/index1.html?action=login&token=76306104352e8f4077f49d7236f482d0

@@ -1,0 +1,20 @@
+关于statistics_total.txt
+
+statistics_mode = 8
+	名下玩家剩余金币数：  两小时更新一次
+		总公司-全部
+	    渠道-全部
+	    推广员(包括星级)-名下所有玩家的剩余金币累计
+
+statistics_mode = 3
+	金币消耗数（个）:
+		总公司 - 小时，天，总的
+		渠道 - 小时，天，总的
+		推广员(包括星级) - 天，总的
+
+
+statistics_mode = 10
+	所有推广员（不含星级）旗下玩家消耗金币数总计：只按天统计
+	statistics_role_type = 2
+	statistics_role_value = 0
+	statistics_type = 2

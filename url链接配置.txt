@@ -1,0 +1,25 @@
+dc_better 接口文件里的action\model（urlmodel.php）文件
+
+（$authorizedloginurl）			配置H5 后台登录的跳转接口
+（$authorizedloginjumpurl）	 	配置 跳转到H5协议页面
+（$authorizedloginjumpurlindex）	配置 跳转到H5后台首页
+（$promoterewardinfourl） 	 	配置生成二维码和分享链接
+
+
+
+
+dc_api_u3d 后台接口文件里面的\application\api\controller\v1（Promoter.php）文件
+
+（redirectUri）		配置微信回调code
+ (jumpctUri)		配置调到推广页面
+（generateLink） 	配置推广链接生成二维码
+（channelUrl） 		配置推广渠道
+（channelHtmlUrl）	配置推广渠道
+
+
+总后台地址：xvip.dcyouxi.com
+渠道后台地址：xqvip.dcyouxi.com
+后台接口：xycht.dcyouxi.com/dc_api_u3d/public/admin/v1/
+
+H5后台：xycht.dcyouxi.com
+其他H5页面：xyfx.dcyouxi.com/dir
