@@ -39,29 +39,29 @@ return [
     ],
 
      //幸运王国
-    'wx_appid' => 'wxe282de77253c75f1',
-    'wx_secret' =>'1693e9c883a69b5c4f9567e05dbbb074',
+    'wx_appid' => '',
+    'wx_secret' =>'',
 
     //推广 promoter
     //H5后台页面跳转
-    'jumpctUri' => "http://xyfx.dcyouxi.com/shareapp/?promoter_id=",
+    'jumpctUri' => "",
     //渠道推广页面跳转链接
-    'channelHtmlUrl' => 'http://xyfx.dcyouxi.com/kingdomfenxiangqudao/index.html?channel_param=',
+    'channelHtmlUrl' => '',
     //新手礼包页面
-    'channelGiftHtmlUrl' => 'http://xyfx.dcyouxi.com/channelgift/index.html?channel_param=',
+    'channelGiftHtmlUrl' => '',
 
     // 微信登陆跳转 - 协议页面
-    'wxJumpAgree'    => 'http://localhost/dc_php_king/trunk/kingdomhoutai/index.html?action=login&token=',
+    'wxJumpAgree'    => '',
     // 微信登陆跳转 - 首页
-    'wxJumpIndex'    => 'http://localhost/dc_php_king/trunk/kingdomhoutai/index1.html?action=login&token=',
+    'wxJumpIndex'    => '',
     
 
     // 微信提现配置
     // 'send_bonus_config' => [
     //     // 微信发红包地址
-    //     'send_bonus_url'      => 'http://www.dachuanyx.com/dc_service/sendwxbonus.php',
+    //     'send_bonus_url'      => '',
     //     // 微信发红包回调地址
-    //     'send_bonus_callback' => 'http://xycht.dcyouxi.com/dc_api_u3d/public/api/v1/withdraw/notify_action',
+    //     'send_bonus_callback' => '',
     //     // 微信发红包名称
     //     'send_bonus_name'     => 'king',
     //     // 微信发红包应用场景
@@ -77,9 +77,9 @@ return [
 
     'send_bonus_config' => [
         // 微信发红包地址
-        'send_bonus_url'      => 'http://www.dachuanyx.com/dc_service/sendwxbonus.php',
+        'send_bonus_url'      => '',
         // 微信发红包回调地址
-        'send_bonus_callback' => 'http://kingdom.dcgames.cn/dc_api_u3d/public/api/v1/withdraw/notify_action',
+        'send_bonus_callback' => '',
         // 微信发红包名称
         'send_bonus_name'     => 'king',
         // 微信发红包应用场景
